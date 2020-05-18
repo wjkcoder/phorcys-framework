@@ -1,8 +1,0 @@
-cn/phorcys/framework/database/BaseModel.class
-cn/phorcys/framework/database/autofill/PhorcysMetaObjectHandler.class
-cn/phorcys/framework/database/annotation/DataSource.class
-cn/phorcys/framework/database/autofill/CommonFields.class
-cn/phorcys/framework/database/idgenerator/PhorcysIdGenerator.class
-cn/phorcys/framework/database/CodeGenerator.class
-cn/phorcys/framework/database/CodeGenerator$1.class
-cn/phorcys/framework/database/plugin/SqlInterceptPlugin.class

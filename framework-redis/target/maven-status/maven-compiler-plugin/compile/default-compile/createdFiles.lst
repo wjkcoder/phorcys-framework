@@ -1,9 +1,0 @@
-cn/phorcys/framework/redis/config/PhorcysRedisProperties$Sentinel.class
-cn/phorcys/framework/redis/config/PhorcysRedissionClient.class
-cn/phorcys/framework/redis/config/RedisClient.class
-cn/phorcys/framework/redis/config/PhorcysRedisProperties$Jedis.class
-cn/phorcys/framework/redis/config/PhorcysRedisProperties$Cluster.class
-cn/phorcys/framework/redis/config/RedissionConfig.class
-cn/phorcys/framework/redis/config/PhorcysRedisProperties$Pool.class
-cn/phorcys/framework/redis/config/PhorcysRedisProperties$Lettuce.class
-cn/phorcys/framework/redis/config/PhorcysRedisProperties.class

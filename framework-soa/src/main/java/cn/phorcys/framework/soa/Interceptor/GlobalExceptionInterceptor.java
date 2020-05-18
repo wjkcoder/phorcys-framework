@@ -1,6 +1,7 @@
 package cn.phorcys.framework.soa.Interceptor;
 
 import cn.phorcys.framework.commons.exception.AuthFailException;
+import cn.phorcys.framework.commons.exception.BusinessException;
 import cn.phorcys.framework.commons.exception.PhorcysRuntimeException;
 import cn.phorcys.framework.commons.model.BaseResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -27,6 +28,9 @@ public class GlobalExceptionInterceptor {
     public BaseResponse exceptionHandler(Exception exception) {
         if(exception instanceof AuthFailException){
             return new ErrorResponse(exception.getMessage(),((AuthFailException) exception).getErrorCode(),null,0);
+        }
+        if(exception instanceof BusinessException){
+            return new ErrorResponse(exception.getMessage(),((BusinessException) exception).getErrorCode(),null,((BusinessException) exception).getCost());
         }
         if(exception instanceof PhorcysRuntimeException){
             return new ErrorResponse(exception.getMessage(),((PhorcysRuntimeException) exception).getErrorCode(),null,0);
