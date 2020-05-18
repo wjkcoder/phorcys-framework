@@ -1,0 +1,13 @@
+cn/phorcys/framework/soa/handler/SessionHandler.class
+cn/phorcys/framework/soa/authentication/Authorizer.class
+cn/phorcys/framework/soa/model/UserInfo.class
+cn/phorcys/framework/soa/commons/SessionInfo.class
+cn/phorcys/framework/soa/authentication/Authentication.class
+cn/phorcys/framework/soa/Interceptor/GlobalExceptionInterceptor$ErrorResponse.class
+cn/phorcys/framework/soa/config/SecurityConfiguration.class
+cn/phorcys/framework/soa/constants/Headers.class
+cn/phorcys/framework/soa/constants/RedisPrefix.class
+cn/phorcys/framework/soa/Interceptor/GlobalExceptionInterceptor.class
+cn/phorcys/framework/soa/Interceptor/AuthIntercepter.class
+cn/phorcys/framework/soa/annotation/AuthenticateSkip.class
+cn/phorcys/framework/soa/Interceptor/PhorcysWebMvcConfigurerAdapter.class

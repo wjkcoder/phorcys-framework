@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.phorcys.center.db.mapper.SysUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.phorcys.center.db.entity.SysUser">
+        <id column="USER_ID" property="userId" />
+        <result column="CREATED_BY" property="createdBy" />
+        <result column="CREATION_DATE" property="creationDate" />
+        <result column="LAST_UPDATED_BY" property="lastUpdatedBy" />
+        <result column="LAST_UPDATE_DATE" property="lastUpdateDate" />
+        <result column="LAST_UPDATE_LOGIN" property="lastUpdateLogin" />
+        <result column="TENANT_ID" property="tenantId" />
+        <result column="USER_TYPE" property="userType" />
+        <result column="USER_NAME" property="userName" />
+        <result column="DESCRIPTION" property="description" />
+        <result column="PASSWORD" property="password" />
+        <result column="NICK_NAME" property="nickName" />
+        <result column="FIRST_NAME" property="firstName" />
+        <result column="LAST_NAME" property="lastName" />
+        <result column="PHONE_NUMBER" property="phoneNumber" />
+        <result column="PHONE_AREA_CODE" property="phoneAreaCode" />
+        <result column="ADDRESS" property="address" />
+        <result column="EMAIL" property="email" />
+        <result column="EMPLOYEE_NUMBER" property="employeeNumber" />
+        <result column="DEPARTMENT" property="department" />
+        <result column="PICTURE_ID" property="pictureId" />
+        <result column="ID_TYPE" property="idType" />
+        <result column="ID_CARD" property="idCard" />
+        <result column="LAST_PASSWORD_DATE" property="lastPasswordDate" />
+        <result column="PASSWORD_EXPIRATION" property="passwordExpiration" />
+        <result column="LOGIN_EXPIRATION" property="loginExpiration" />
+        <result column="ACTIVE_EXPIRATION" property="activeExpiration" />
+        <result column="LAST_LOGIN_DATE" property="lastLoginDate" />
+        <result column="PASSWORD_ERROR_TIMES" property="passwordErrorTimes" />
+        <result column="PASSWORD_RESET_FLAG" property="passwordResetFlag" />
+        <result column="LOGIN_COUNT" property="loginCount" />
+        <result column="AUTO_START_MENU_ID" property="autoStartMenuId" />
+        <result column="START_DATE" property="startDate" />
+        <result column="END_DATE" property="endDate" />
+        <result column="DELETE_FLAG" property="deleteFlag" />
+    </resultMap>
+
+</mapper>

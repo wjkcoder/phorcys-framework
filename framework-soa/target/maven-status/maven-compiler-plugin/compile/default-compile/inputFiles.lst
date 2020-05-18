@@ -1,0 +1,12 @@
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/authentication/Authentication.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/handler/SessionHandler.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/model/UserInfo.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/authentication/Authorizer.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/constants/Headers.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/constants/RedisPrefix.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/Interceptor/GlobalExceptionInterceptor.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/commons/SessionInfo.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/Interceptor/PhorcysWebMvcConfigurerAdapter.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/Interceptor/AuthIntercepter.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/annotation/AuthenticateSkip.java
+/Users/jeff/learn/java/framework/framework-soa/src/main/java/cn/phorcys/framework/soa/config/SecurityConfiguration.java
